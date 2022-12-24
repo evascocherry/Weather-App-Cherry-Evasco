@@ -10,7 +10,6 @@ window.onload = function() {
 
 const userLang = getUserLanguage() || "en-US";
 const place = document.querySelector("#place");
-
 for (var i in CITY) {
   var option = document.createElement("option");
   option.value = CITY[i];
