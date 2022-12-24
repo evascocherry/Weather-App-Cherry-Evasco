@@ -8,7 +8,6 @@ export function getUserLanguage() {
 
   return null;
 }
-
 export const translations = {
   "en-US": {
     apiLang: "en",
